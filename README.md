@@ -5,7 +5,7 @@ This is simply just a mirror of the version compiled for 32-bit ARM (armhf). You
 ## Installation
 Stacer has been compiled already for quick and easy installation with a couple commands. Paste these into a terminal:
 ```
-wget -O ~/stacer.deb https://bit.ly/2VRjCcR && wget -O ~/fonts-inter.deb https://bit.ly/36LZf7q
+wget -O ~/stacer.deb https://bit.ly/2VOstft && wget -O ~/fonts-inter.deb https://bit.ly/3mSAmfO
 sudo apt install libqt5charts5 -y
 sudo dpkg -i fonts-inter.deb && sudo dpkg -i stacer.deb
 ```
