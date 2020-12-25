@@ -7,6 +7,9 @@ Stacer has been compiled already for quick and easy installation with a couple c
 ```
 wget -O ~/stacer.deb https://bit.ly/2VOstft && wget -O ~/fonts-inter.deb https://bit.ly/3mSAmfO
 sudo apt install libqt5charts5 -y
-sudo dpkg -i fonts-inter.deb && sudo dpkg -i stacer.deb
+sudo dpkg -i fonts-inter.deb && sudo dpkg -i stacer.deb && rm -f ~/fonts-inter.deb && rm -f ~/stacer.deb
 ```
 You can find Stacer in Menu > Accessories > Stacer.
+
+## ***Known Issues***
+total amount of RAM is not displayed properly.
